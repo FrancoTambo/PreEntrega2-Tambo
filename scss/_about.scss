@@ -1,0 +1,86 @@
+.about{
+    padding: 10px 0;
+}
+
+.about_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about_box--reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.about_header--left{
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 60px;
+}
+
+.about_text--md{
+    font-size: 1.6em;
+}
+
+.about_link--left{
+    display: block;
+    text-align: left;
+    color: rgb(109, 135, 157);
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-left: 80px;
+    margin: 10px 0;
+}
+
+.about_list--grey{
+    color: rgb(157, 157, 238);
+    list-style: square;
+    padding-left: 60px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+/* ================ Pseudo clases (.about)================== */
+
+/* :hover */
+.about_img--md:hover{
+    border: solid white;
+    cursor: pointer;
+}
+
+/* :visited */
+nav ul a:visited{
+    color: blanchedalmond;
+}
+
+/* :active */
+
+nav ul a:active{
+    color: rgb(163, 142, 112);
+}
+
+/* :first-child */
+.about_list--grey li:first-child{
+    color: aquamarine;
+}
+
+/* :nth-child() */
+.about_list--grey li:nth-child(3){
+    color: rgb(115, 115, 246);
+    font-weight: 600;
+}
+
+/* :last-child */
+.about_list--grey li:last-child{
+    color: rgb(163, 198, 227);
+    font-weight: 700;
+}
+
+/* :not() */
+.about_list--grey li:not(.estano){
+    background-color: white;
+}

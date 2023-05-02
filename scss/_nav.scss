@@ -1,0 +1,18 @@
+.botonera{
+    background-color: $mainColor;
+    ul{
+        li{
+            margin-left: 5px;
+            a{
+                color:white;
+               
+                &:hover{
+                    color: $secondaryColor;
+                }
+            }
+        }
+    }
+    img{
+        width: 100px;
+    }
+}
